@@ -1,4 +1,4 @@
-// All site content lives here. Edit this file to update the portfolio â€”
+// All site content lives here. Edit this file to update the portfolio —
 // no component changes needed.
 
 export type Project = {
@@ -31,7 +31,7 @@ export const siteUrl =
 export const profile = {
   name: "Engr. Hafiz Anjum",
   shortName: "Hafiz Anjum",
-  role: "Software Engineer Â· ERP & AI Solutions",
+  role: "Software Engineer · ERP & AI Solutions",
   location: "Karachi, Pakistan",
   email: "hafizanjumraza1993@gmail.com",
   phone: "+92 345 2692533",
@@ -44,11 +44,11 @@ export const profile = {
   headline:
     "I build AI-powered web apps and ERP solutions that turn live business data into answers.",
   summary:
-    "Software Engineer (B.E., MUET) with 6+ years in ERP systems, plus experience in web development and network administration (CCNA). I combine hands-on ERPNext / Frappe support with modern frontend work in Next.js and Generative AI â€” and I use Claude as a core part of how I design, build and ship software.",
+    "Software Engineer (B.E., MUET) with 6+ years in ERP systems, plus experience in web development and network administration (CCNA). I combine hands-on ERPNext / Frappe support with modern frontend work in Next.js and Generative AI — and I use Claude as a core part of how I design, build and ship software.",
   about: [
-    "I'm a Software Engineer from Mehran University of Engineering & Technology with a practical, business-first mindset. Since 2020 I've been the Senior Software Support engineer for the ERP platform at Black and Brown Bakers â€” troubleshooting complex issues, optimising workflows, training users and working with developers to ship enhancements.",
+    "I'm a Software Engineer from Mehran University of Engineering & Technology with a practical, business-first mindset. Since 2020 I've been the Senior Software Support engineer for the ERP platform at Black and Brown Bakers — troubleshooting complex issues, optimising workflows, training users and working with developers to ship enhancements.",
     "Most recently I integrated an AI chatbot into ERPNext (Frappe) that answers user questions using live ERP data. That project sparked my focus on Generative AI: I now build and deploy full web applications with Next.js and Claude, moving from idea to a live product quickly and reliably.",
-    "My background also spans web development, network administration (CCNA) and running my own distribution business â€” so I understand both the technology and the operations it's meant to serve.",
+    "My background also spans web development, network administration (CCNA) and running my own distribution business — so I understand both the technology and the operations it's meant to serve.",
   ],
   stats: [
     { value: "6+", label: "Years in ERP support" },
@@ -89,7 +89,7 @@ export const experience: Experience[] = [
   {
     company: "Black and Brown Bakers",
     role: "Senior Software Support (ERP)",
-    period: "Oct 2020 â€” Present",
+    period: "Oct 2020 — Present",
     location: "Karachi",
     points: [
       "Integrated an AI chatbot into ERPNext (Frappe) that answers user queries using live ERP data.",
@@ -102,7 +102,7 @@ export const experience: Experience[] = [
   {
     company: "Sara Learning",
     role: "Social Media Manager",
-    period: "2023 â€” 2024",
+    period: "2023 — 2024",
     location: "Remote",
     points: [
       "Managed day-to-day activity and content across Facebook, LinkedIn and Instagram.",
@@ -119,7 +119,7 @@ export const experience: Experience[] = [
   {
     company: "Distribution and Soul Business",
     role: "Business Owner",
-    period: "2017 â€” 2018",
+    period: "2017 — 2018",
     points: ["Managed business operations, logistics and distribution activities."],
   },
 ];
@@ -130,7 +130,7 @@ export const projects: Project[] = [
     title: "ERPNext AI Assistant",
     tagline: "Chatbot that answers questions from live ERP data",
     description:
-      "An AI chatbot integrated directly into ERPNext (Frappe) at Black and Brown Bakers. Staff ask questions in plain language and get answers grounded in the company's live ERP records â€” no reports or manual lookups needed.",
+      "An AI chatbot integrated directly into ERPNext (Frappe) at Black and Brown Bakers. Staff ask questions in plain language and get answers grounded in the company's live ERP records — no reports or manual lookups needed.",
     highlights: [
       "Natural-language queries over live ERP data",
       "Integrated inside the existing ERPNext / Frappe system",
@@ -202,7 +202,7 @@ export const projects: Project[] = [
     title: "BnB Cloud Services",
     tagline: "Company website for a Pakistan-based software house",
     description:
-      "A modern, responsive marketing website for BnB Cloud Services, presenting its services â€” web design and development, custom ERP systems, SEO & digital marketing, e-commerce and cloud hosting â€” with a clear path for clients to request a free quote.",
+      "A modern, responsive marketing website for BnB Cloud Services, presenting its services — web design and development, custom ERP systems, SEO & digital marketing, e-commerce and cloud hosting — with a clear path for clients to request a free quote.",
     highlights: [
       "Six service offerings with dedicated detail links",
       "About, \"How we work\" process and stats sections",
@@ -218,17 +218,17 @@ export const projects: Project[] = [
 export const education = [
   {
     school: "Mehran University of Engineering & Technology, Jamshoro (MUET)",
-    degree: "B.E. Software Engineering â€” 1st Division",
+    degree: "B.E. Software Engineering — 1st Division",
     year: "2016",
   },
   {
     school: "B.I.S.E Hyderabad",
-    degree: "Intermediate â€” Grade A",
+    degree: "Intermediate — Grade A",
     year: "2011",
   },
   {
     school: "B.I.S.E Hyderabad",
-    degree: "Matriculation â€” Grade A1",
+    degree: "Matriculation — Grade A1",
     year: "2009",
   },
 ];

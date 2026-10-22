@@ -15,12 +15,12 @@ import { Reveal } from "./reveal";
 
 function Section({ id, eyebrow, title, children }: { id: string; eyebrow: string; title: string; children: ReactNode }) {
   return (
-    <section id={id} className="mx-auto w-full max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
+    <section id={id} className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
       <Reveal>
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">{eyebrow}</p>
         <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">{title}</h2>
       </Reveal>
-      <div className="mt-10">{children}</div>
+      <div className="mt-8">{children}</div>
     </section>
   );
 }
@@ -62,7 +62,7 @@ export function Hero() {
       <div className="bg-grid pointer-events-none absolute inset-0 opacity-60" aria-hidden="true" />
       <div className="pointer-events-none absolute -top-40 left-1/2 h-96 w-[40rem] -translate-x-1/2 rounded-full bg-accent/10 blur-3xl" aria-hidden="true" />
 
-      <div className="relative mx-auto max-w-6xl px-4 pb-20 pt-32 sm:px-6 sm:pb-28 sm:pt-40">
+      <div className="relative mx-auto max-w-6xl px-4 pb-10 pt-28 sm:px-6 sm:pb-14 sm:pt-32">
         <Reveal>
           <span className="inline-flex items-center gap-2 rounded-full border border-border bg-surface/70 px-3 py-1 text-xs text-muted backdrop-blur">
             <span className="relative flex size-2">
@@ -88,7 +88,7 @@ export function Hero() {
         </Reveal>
 
         <Reveal delay={240}>
-          <div className="mt-10 flex flex-wrap items-center gap-3">
+          <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
               href="#projects"
               className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-medium text-accent-fg transition hover:opacity-90"
@@ -116,7 +116,7 @@ export function Hero() {
         </Reveal>
 
         <Reveal delay={320}>
-          <dl className="mt-16 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-border bg-border shadow-sm sm:grid-cols-4">
+          <dl className="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-border bg-border shadow-sm sm:grid-cols-4">
             {profile.stats.map((s) => (
               <div key={s.label} className="bg-surface p-5 sm:p-6">
                 <dd className="text-2xl font-semibold tracking-tight sm:text-3xl">{s.value}</dd>
@@ -315,7 +315,7 @@ export function Projects() {
   return (
     <Section id="projects" eyebrow="04 · Projects" title="Things I've built with Claude">
       <Reveal>
-        <p className="-mt-4 mb-10 max-w-2xl text-muted">
+        <p className="-mt-2 mb-8 max-w-2xl text-muted">
           Real, deployed applications — designed, built and shipped with Claude as my AI pair-engineer. Click a live demo
           to try any of them.
         </p>
