@@ -137,6 +137,7 @@ export const projects: Project[] = [
       "Reduces support load and speeds up everyday decisions",
     ],
     tech: ["ERPNext", "Frappe", "Python", "Generative AI"],
+    liveUrl: "https://sale-chatbot-erp-next.vercel.app",
     builtWithClaude: true,
     featured: true,
   },
