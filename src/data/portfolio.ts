@@ -157,6 +157,48 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    title: "AI Research Lab — Task Management",
+    tagline: "Monthly task planning and tracking for managers and teams",
+    description:
+      "A role-based task management web app. Managers plan each month, assign work and follow progress, while team members sign in to see and update their own tasks — with results reported from one place.",
+    highlights: [
+      "Secure sign-in with manager and team-member roles",
+      "Monthly planning, task assignment and progress tracking",
+      "Centralised reporting of results for managers",
+    ],
+    tech: ["Next.js", "Authentication", "Vercel"],
+    liveUrl: "https://task-managemnt-desk-th56.vercel.app",
+    builtWithClaude: true,
+  },
+  {
+    title: "KidsWear Pakistan",
+    tagline: "E-commerce store for kids' clothing, shoes and accessories",
+    description:
+      "A full online store for children's fashion in Pakistan — party frocks, Eid collections, school shoes and everyday wear — with category browsing, featured and new-arrival collections, discounts and local payment options.",
+    highlights: [
+      "Category shopping: girls, boys, dresses, shoes, accessories and Eid collection",
+      "Product search, wishlist, cart, sign-in and order tracking",
+      "Sale pricing, promo codes, and Easypaisa / JazzCash / COD payments",
+    ],
+    tech: ["Next.js", "E-commerce", "Vercel"],
+    liveUrl: "https://kids-clothing-ecommerce-gamma.vercel.app",
+    builtWithClaude: true,
+  },
+  {
+    title: "BNB Book Outlet",
+    tagline: "Online bookstore for Matric & Intermediate students",
+    description:
+      "An e-commerce bookstore for Pakistani students selling textbooks, guides, notes and solved past papers, organised by class level and examination board, with nationwide delivery.",
+    highlights: [
+      "Browse by Matric, Intermediate, board, textbooks, guides, notes and past papers",
+      "Search by title, subject, publisher or ISBN",
+      "Cart, wishlist, sign-in and order tracking",
+    ],
+    tech: ["Next.js", "E-commerce", "Vercel"],
+    liveUrl: "https://bookoutlet-ecommerce.vercel.app",
+    builtWithClaude: true,
+  },
+  {
     title: "BnB Cloud Services",
     tagline: "Company website for a Pakistan-based software house",
     description:
