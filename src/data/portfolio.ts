@@ -142,6 +142,21 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    title: "ERPNext Sales Analytics Dashboard",
+    tagline: "Live sales, costing and stock analytics on ERPNext data",
+    description:
+      "A real-time analytics dashboard for a bakery business, pulling live data from ERPNext. Management can track sales KPIs, costing, production forecasts and stock in one place, with flexible date ranges and auto-refresh.",
+    highlights: [
+      "KPIs: net sales, bills, average bill, quantity sold, best / lowest day and monthly target",
+      "Modules for Sales, Costing, Production Forecast, Sales Decline & Cost Increase and Stock tracking",
+      "Today / week / month / custom ranges, auto-refresh, voice control and dark mode",
+    ],
+    tech: ["Next.js", "ERPNext API", "Data Visualization", "Vercel"],
+    liveUrl: "https://erpnext-sales-dashboard.vercel.app",
+    builtWithClaude: true,
+    featured: true,
+  },
+  {
     title: "BnB Cloud Services",
     tagline: "Company website for a Pakistan-based software house",
     description:
