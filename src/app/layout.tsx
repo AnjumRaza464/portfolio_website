@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const title = `${profile.shortName} — ${profile.role}`;
+const title = "Anjum Portfolio";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title,
     description: profile.headline,
     url: "/",
-    siteName: `${profile.shortName} — Portfolio`,
+    siteName: "Anjum Portfolio",
     type: "profile",
     locale: "en_US",
   },
