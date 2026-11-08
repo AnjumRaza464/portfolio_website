@@ -157,6 +157,35 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    title: "Branch Expense Intelligence Dashboard",
+    tagline: "Multi-branch expense tracking and analysis for a bakery chain",
+    description:
+      "A secure, login-protected expense dashboard built for Black and Brown Bakers. Management can review and compare expenses across branches and over time, spot cost increases early and keep confidential company data in one controlled place.",
+    highlights: [
+      "Branch-wise expense tracking and comparison for management",
+      "Trend analysis to catch cost increases before they hurt margins",
+      "Role-based access for authorised staff only, with 12-hour sessions and no data exports",
+    ],
+    tech: ["Next.js", "Authentication", "Data Visualization", "Vercel"],
+    liveUrl: "https://ts-branches-expense-dashboard.vercel.app",
+    builtWithClaude: true,
+    featured: true,
+  },
+  {
+    title: "Market 48 Shop — Mandi Khata",
+    tagline: "Digital ledger for a fruit & vegetable commission shop",
+    description:
+      "A live khata system for a mandi (wholesale market) shop that works the way the counter does: cut the supplier's patti the moment a lot sells, post the buyer's udhaar, log the day's kharcha and see what each partner takes home at settlement.",
+    highlights: [
+      "Supplier pattis with lot, rate, commission and mandi charges — net to party in one slip",
+      "Customer khata with udhaar, receipts and running balance, day by day",
+      "Expenses split between partners, plus daily / monthly / yearly P&L and printable statements",
+    ],
+    tech: ["Next.js", "Authentication", "Vercel"],
+    liveUrl: "https://market-shop-48.vercel.app",
+    builtWithClaude: true,
+  },
+  {
     title: "AI Research Lab — Task Management",
     tagline: "Monthly task planning and tracking for managers and teams",
     description:
