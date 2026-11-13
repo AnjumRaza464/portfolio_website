@@ -196,7 +196,7 @@ export const projects: Project[] = [
       "Centralised reporting of results for managers",
     ],
     tech: ["Next.js", "Authentication", "Vercel"],
-    liveUrl: "https://task-managemnt-desk-th56.vercel.app",
+    liveUrl: "https://unikyn-pms.vercel.app",
     builtWithClaude: true,
   },
   {
